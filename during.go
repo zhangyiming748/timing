@@ -10,7 +10,7 @@ func init() {
 	time.Local = cstZone
 }
 
-func during(start, end time.Time) string {
+func During(start, end time.Time) string {
 	// 获取开始时间
 	//start := time.Now()
 
